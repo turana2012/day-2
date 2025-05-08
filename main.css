@@ -1,0 +1,36 @@
+table{
+    border: 2px  solid white ;
+    width: 500px;
+    height: 500px;
+}
+
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: center;
+    background-color: blue; 
+
+}
+
+td{
+    background-color:white
+    color blue;
+}
+
+
+tr:nth-child(even){
+    
+    background-color: grey; 
+
+  }
+    
+  td:nth-child(even), th:nth-child(even) {
+    background-color: grey;
+  }
+  td:nth-child(odd), th:nth-child(odd) {
+    background-color: white;
+  }
+  
