@@ -1,0 +1,18 @@
+table{
+  width: 700px;
+  height: 500px;
+}
+
+table,tr,th,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+ th,td{
+  text-align: center;
+ }
+ th{
+  background-color: gray;
+ }
+tr:nth-child(even){
+  background-color: rgb(205, 203, 203);
+}
