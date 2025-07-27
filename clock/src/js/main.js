@@ -19,3 +19,11 @@ sec.style.transform = `translate(-50%, -100%) rotate(${sRotation}deg)`;
 
     setInterval(displayTime, 1000);
     displayTime();
+
+
+    setInterval(myTimer, 1000);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
