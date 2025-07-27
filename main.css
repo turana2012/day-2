@@ -1,33 +1,17 @@
 table{
-    border: 2px  solid white ;
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
-table,th,td {
-  border: 1px solid black;
+table,th,tr,td{
+  border: 2px solid black;
   border-collapse: collapse;
 }
-<colgroup>
-    <col span="3">
-    <col span="2" style="background-color: pink">
-  </colgroup>
-
-table,th,tr,td{
-    border: 2px solid black;
-    border-collapse: collapse;
-
-  th,td{
-    text-align: center;
-  
-  }
-  
+th,td{
+  text-align: center;
 }
-th, td {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
+th{
+  background-color: blue;
 }
-td:nth-child(even), th:nth-child(even) {
-  background-color: rgb(231, 230, 230);
+tr:nth-child(even) {
+  background-color: rgb(193, 192, 192);
 }
